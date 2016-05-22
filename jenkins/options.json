@@ -1,0 +1,13 @@
+{
+  "jenkins": {
+    "framework-name": "jenkins",
+    "host": "$HOST",
+    "cpus": 1,
+    "mem": 1024,
+    "mesos-master": "zk://leader.mesos:2181/mesos",
+    "host-volume": "/tmp",
+    "jvm-opts": "-Xms512m -Xmx512m",
+    "known-hosts": "github.com",
+    "role": "*"
+  }
+}
